@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>cat island</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#FFF;
+			margin:0;
+			height:100%;
+		}
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=1024" />
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/underscore@1.12.1/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/worldoptimizer/HypeHandlebars/HypeHandlebars.min.js"></script>
+	<script src='https://cdn.jsdelivr.net/gh/colxi/getEventListeners/src/getEventListeners.min.js'></script>
+	<script src="https://unpkg.com/fireworks-js@latest/dist/fireworks.js"></script>
+
+	<style>
+			 		
+	 		
+body{
+	overflow:hidden;
+	background-color:#fcfcfc;
+	margin:0;
+	padding:0;
+}
+ 	</style>
+ 	
+ <script>
+	function supportsHEVCAlpha() {
+  		 navigator = window.navigator;
+  		 ua = navigator.userAgent.toLowerCase()
+  		 hasMediaCapabilities = !!(navigator.mediaCapabilities && navigator.mediaCapabilities.decodingInfo)
+  		 isSafari = ((ua.indexOf('safari') != -1) && (!(ua.indexOf('chrome')!= -1) && (ua.indexOf('version/')!= -1)))
+  		 isiPad = navigator.maxTouchPoints == 5
+  		 return isiPad || (isSafari && hasMediaCapabilities)
+}
+</script>
+<script>
+ window.addEventListener('message', function(theEvent) {
+      switch(theEvent.data[0]) {   
+	    case 'newMasterVolume':
+	           HYPE.documents.index.functions().changeMasterVolume(HYPE.documents.index,theEvent.data[1],null);
+	          
+	        break;
+        }
+}, false);
+
+</script>
+<meta name=”apple-mobile-web-app-capable” content=”yes”>
+<script>
+  if (window.navigator.maxTouchPoints == 5) {
+      const el = document.documentElement;
+      el.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+    }
+</script>
+
+
+	
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+	<div id="catisland_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:1024px;height:768px;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="cat%20island.hyperesources/catisland_hype_generated_script.js?1013"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	<!-- text content for search engines: -->
+
+	<div style="display:none" aria-hidden=true>
+
+		<div></div>
+		<div>Remember you have mouse video set to inline and supportsHECV() hacked to always return true for iOS deployment</div>
+		<div>Seek and you shall find</div>
+		<div>Start</div>
+		<div>Goto</div>
+		<div>Prev</div>
+		<div>Next</div>
+		<div>You Found The Cat!
+
+We hope you had a wonderful adventure.
+
+Look for more adventure games by GrampaGames!
+</div>
+		<div>“Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. For everyone who asks receives, and he who seeks finds, and to him who knocks it will be opened." Matthew 7:7-8</div>
+		<div>Test</div>
+
+	</div>
+
+	<!-- end text content: -->
+
+  </body>
+</html>
